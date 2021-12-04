@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgetActivity">
+
+    <EditText
+        android:id="@+id/et_forget_information"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:hint="安全验证：作者的大学校名"
+        android:inputType="text"
+        android:lines="1" />
+
+    <Button
+        android:id="@+id/btn_forget_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_forget_information"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="确定" />
+
+</RelativeLayout>
